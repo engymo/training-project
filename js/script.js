@@ -6,8 +6,10 @@ let date = document.getElementById('date');
 let duration = document.getElementById('duration');
 let certificate = document.getElementById('certificate');
 let textaerea = document.getElementById('Textarea');
+let btn = document.querySelector('.btn')
 
 
+btn.addEventListener('click',function(){
     localStorage.setItem('levels', levels.value);
     localStorage.setItem('lesone', lesone.value);
     localStorage.setItem('date', date.value);
@@ -15,4 +17,9 @@ let textaerea = document.getElementById('Textarea');
     localStorage.setItem('certificate', certificate.value);
     localStorage.setItem('language', language.value);
     localStorage.setItem('Textarea', textaerea.value);
+}
+);
+
+
+   
 
