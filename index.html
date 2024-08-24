@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Task One</title>
+</head>
+
+
+
+
+<body>
+    <!-- button & h5 -->
+    <section class="d-flex justify-content-between px-5 py-3">
+        <h5 class="text-white">Add course button</h5>
+        <button class="btn">publish</button>
+    </section>
+    <!-- first form -->
+    <form class="row g-3 text-white justify-content-md-center ">
+        <div class="col-md-4">
+            <label for="input" class="form-label ">course name</label>
+            <select id="input" class="form-select bg-dark">
+                <option>...</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label for="level" class="form-label">level</label>
+            <input type="number" class="form-control text-white  bg-dark" id="levels">
+        </div>
+        <div class="col-md-4">
+            <label for="input" class="form-label">number for lesone</label>
+            <input type="number" class="form-control text-white  bg-dark" id="lesone">
+        </div>
+    </form>
+    <!-- second form -->
+
+    <form class="row g-3 text-white justify-content-md-center my-3">
+        <div class="col-md-3">
+            <label for="" class="form-label">language</label>
+            <input type="text" class="form-control bg-dark" id="language">
+        </div>
+        <div class="col-md-2 ">
+            <label for="date" class="form-label">start date</label>
+            <input type="date" class="form-control text-white-50 bg-dark " id="date">
+        </div>
+        <div class="col-md-3">
+            <label for="" class="form-label">duration</label>
+            <input type="time" class="form-control text-white-50 bg-dark" id="duration">
+        </div>
+        <div class="col-md-3">
+            <label for="" class="form-label">certificate</label>
+            <input type="text" class="form-control bg-dark" id="certificate">
+        </div>
+    </form>
+    <!-- course introduction -->
+    <div class="textarea1 m-auto my-3 ">
+        <label for="FormControlTextarea" class="form-label text-white">course introduction</label>
+        <textarea class="form-control bg-dark" id="Textarea" rows="3"></textarea>
+    </div>
+    <!-- course assment & course requirments -->
+    <div class="row  justify-content-md-center textarea2-3 ">
+        <div class="col-md-5 textarea2">
+            <label for="FormControlTextarea" class="form-label text-white">course assessment</label>
+            <textarea class="form-control bg-dark" id="Textarea" rows="3"></textarea>
+        </div>
+        <div class="col-md-6 textarea3">
+            <label for="FormControlTextarea" class="form-label text-white">course requirments</label>
+            <textarea class="form-control bg-dark" id="Textarea" rows="3"></textarea>
+        </div>
+    </div>
+
+    <div class="textarea4 m-auto my-3 ">
+        <label for="FormControlTextarea" class="form-label text-white">course materials</label>
+        <textarea class="form-control bg-dark" id="Textarea" rows="3"></textarea>
+    </div>
+
+    <!-- publishing date -->
+    <div class="col-md-2 ps-5">
+        <label for="date" class="form-label text-white">publishing date</label>
+        <input type="date" class="form-control text-white-50 bg-dark " id="date-publish">
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
